@@ -9,12 +9,22 @@
 body {
   font-family: sans-serif;
 }
-
+h4{
+  display: inline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+  text-decoration: none;
+  color:white;
+  padding: 5px;
+}
 /* Utils */
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding:10px 50px;
+  color:white;
 }
 
 .flex {
@@ -25,9 +35,6 @@ body {
   flex-direction: row-reverse;
 }
 
-.debug .border {
-  border: 2px dashed black;
-}
 
 .bg-white {
   background-color: white;
@@ -38,23 +45,22 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: rgb(49,97,224);
 }
 
 /* # Navbar */
 
 .navbar {
-  height: 80px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(49,97,224);
 }
 
 .navbar > * {
-  padding: 10px;
+  padding: 10px 40px;
   flex-basis: 20%;
-  background-color: goldenrod;
 }
 
 .navbar-menu {
@@ -65,10 +71,22 @@ header {
 .navbar-actions {
   text-align: right;
 }
+button{
+  background-color: white;
+  color:black;
+  border-radius: 20px;
+  padding:8px;
+}
 
 /* # Jumbotron */
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .jumbotron {
+  background-image: url(../img/img/jumbo.png);
+  background-size:100%;
+  background-repeat: no-repeat;
   padding: 50px;
   height: 500px;
   background-color: darkblue;
