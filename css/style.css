@@ -21,12 +21,28 @@ a{
 h1{
   font-size: 50px;
   font-family:  Calibri, 'Trebuchet MS', sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
-p{
+#text-jumbo{
   font-size: 17px;
   font-family:  Calibri, 'Trebuchet MS', sans-serif;
   margin-bottom: 40px;
+}
+h2{
+  font-size: 35px;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #23272a;
+}
+p{
+  text-align: left;
+  font-size: 17px;
+  padding: 40px 0px;
+  color: #23272a;
+  font-weight: bold;
+}
+#text-jumbo{
+  text-align: center;
 }
 /* Utils */
 
@@ -90,14 +106,16 @@ header {
 }
 
 /* # Jumbotron */
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .jumbotron {
   background-image: url(../img/img/jumbo.png);
   background-size:100%;
   background-repeat: no-repeat;
   padding: 50px;
   height: 400px;
-  background-color: darkblue;
 
   display: flex;
   justify-content: center;
@@ -112,7 +130,7 @@ header {
 }
 
 .B-Open{
-  background-color: black;
+  background-color: rgb(35,39,42);
   color:white;
   border-radius: 25px;
   border: none;
@@ -134,13 +152,14 @@ section > .container {
 }
 
 .flex > .small-col {
-  flex-basis: 40%;
-  background-color: pink;
+  /* flex-basis: 40%; */
+  flex-basis: 25%;
+  padding-top: 30px;
+  align-items: flex-start;
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
 }
 
 .flex > .full-col {
