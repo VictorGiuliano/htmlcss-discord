@@ -24,9 +24,18 @@ h1{
   margin-bottom: 20px;
 }
 #text-jumbo{
-  font-size: 17px;
+  font-size: 15px;
   font-family:  Calibri, 'Trebuchet MS', sans-serif;
   margin-bottom: 40px;
+  color: white;
+  text-align: center;
+}
+#text-section{
+  font-size: 15px;
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px 70px;
+  color: black;
+  text-align: center;
 }
 h2{
   font-size: 35px;
@@ -37,15 +46,15 @@ h2{
 p{
   text-align: left;
   font-size: 17px;
-  padding: 40px 0px;
+  padding: 40px 0px;  
   color: #23272a;
   font-weight: bold;
 }
-#text-jumbo{
+/* Utils */
+.centro-colore{
+  color: white;
   text-align: center;
 }
-/* Utils */
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -149,6 +158,7 @@ section {
 
 section > .container {
   height: 100%;
+  text-align: center;
 }
 
 .flex > .small-col {
@@ -164,9 +174,10 @@ section > .container {
 
 .flex > .full-col {
   flex-basis: 100%;
-  background-color: darkgreen;
 }
-
+#chill{
+height: 80%;
+}
 /* # Footer */
 
 footer {
